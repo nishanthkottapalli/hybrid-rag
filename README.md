@@ -111,7 +111,7 @@ So instead of storing full transcripts, I store **episode summaries** in SQLite:
 
 When I run a similar question later, the notebook can recall related past episodes and use them as hints.
 
-This is intentionally lightweight. It is memory as “what worked before,” not memory as “full conversation history.”
+This is intentionally lightweight. It is memory as "what worked before", not memory as "full conversation history".
 
 ---
 
@@ -132,7 +132,7 @@ This makes the notebook easier to debug and easier to extend.
 
 ### 4. Validation and repair
 
-I did not want answer generation to be “best effort and hope for the best.”
+I did not want answer generation to be "best effort and hope for the best".
 
 So after the answer is generated, I run a small validation layer that checks things like:
 
@@ -523,7 +523,7 @@ The point of this notebook is to make the core loop real enough that I can itera
 
 ## Acknowledgment
 
-This notebook was inspired by my own experimentation around compact RAG workflows, retrieval structure, memory, and answer validation. The implementation in this repository is written in my own first-person prototype style and shaped around how I prefer to reason about these systems.
+This notebook was inspired by my own experimentation around compact RAG workflows, retrieval structure, memory, and answer validation. The implementation in this repository is written  and shaped around how I prefer to reason about these systems.
 
 ---
 
